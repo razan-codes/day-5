@@ -100,7 +100,7 @@ img {
 
 .middle {
     width: 100%;
-    height: 250px;
+    height: auto;
 
 }
 
@@ -116,9 +116,9 @@ img {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 10%;
-    padding-right: 20%;
-    padding-left: 20%;
+    gap: 7%;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 .box {
@@ -143,7 +143,7 @@ img {
     width: 100%;
     height: 20vh;
     background-color: #c6c2c2;
-    margin-top: -3%;
+    margin-top: 9%;
 }
 
 .toot p {
@@ -165,27 +165,29 @@ img {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 150px;
+    height: 26vh;
 }
 
 .box2 {
     position: relative;
-    width: 700px;
-    height: 10px;
+    width: 100%;
+    height: 2vh;
     background-color: #3882f6;
     padding-bottom: 100px;
-    border-radius: 5px;
+    border-radius: 2%;
 }
 
 .footer .box2 h5 {
     color: bisque;
-    margin: 26px 0px 0px 80px;
+    margin: 2% 0px 0px 10%;
     font-weight: bold;
+    font-size: clamp(5px, 2vw, 15px);
 }
 
 .footer .box2 p {
     color: bisque;
-    margin: 8px 0px 0px 80px;
+    margin: 2% 0px 0px 11%;
+    font-size: clamp(10px, 1.5vw, 25px);
 
 }
 
